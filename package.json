@@ -1,0 +1,27 @@
+{
+  "name": "cypress-exercicios",
+  "version": "1.0.0",
+  "description": "exercicios do curso de cypress avançado",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open":"cypress open",
+    "cy:chrome":"cypress run --headless --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beatrizartimundo/cypress-exercicios.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beatrizartimundo/cypress-exercicios/issues"
+  },
+  "homepage": "https://github.com/beatrizartimundo/cypress-exercicios#readme",
+  "dependencies": {
+    "cypress": "7.2.0",
+    "cypress-localstorage-commands": "^1.4.4",
+    "faker": "^5.5.3"
+  }
+}
