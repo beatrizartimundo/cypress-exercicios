@@ -1,4 +1,5 @@
 {
-    "baseUrl":"https://infinite-savannah-93746.herokuapp.com/",
-    "video":false
+    "baseUrl":"https://infinite-savannah-93746.herokuapp.com",
+    "video":false,
+    "chromeWebSecurity": false
 }
