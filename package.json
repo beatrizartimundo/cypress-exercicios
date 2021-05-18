@@ -5,8 +5,20 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cy:open":"cypress open",
-    "cy:chrome":"cypress run --headless --browser chrome"
+    "cy:open": "cypress open",
+    "cy:chrome": "cypress run --headless --browser chrome",
+    "lint:fix":"npx standard --fix"
+  },
+  "standard": {
+    "globals": [
+      "beforeEach",
+      "context",
+      "cy",
+      "Cypress",
+      "describe",
+      "it",
+      "expect"
+    ]
   },
   "repository": {
     "type": "git",
@@ -22,6 +34,7 @@
   "dependencies": {
     "cypress": "7.2.0",
     "cypress-localstorage-commands": "^1.4.4",
-    "faker": "^5.5.3"
+    "faker": "^5.5.3",
+    "standard": "^16.0.3"
   }
 }
